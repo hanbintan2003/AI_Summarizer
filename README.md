@@ -3,6 +3,10 @@
 
 A web project that leverages the power of machine learning to provide succinct summaries of online articles. Developed with React.js and Vite, it offers a highly responsive and beautiful user interface with a touch of glass morphism, thanks to Tailwind CSS.
 
+## Demo
+<br>
+<img src="src/assets/demo.png"/>
+
 ## How to Run
 
 To run on local:
