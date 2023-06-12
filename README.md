@@ -21,7 +21,7 @@ To upload:
 
 ## API Setup
 
-In order to use the Article Extractor and Summarizer API, you need to sign up on RapidAPI and get your API key. Once you have your key, add it to your `.env` file:
+In order to use the Article Extractor and Summarizer API, you need to sign up on RapidAPI and get your API key from https://rapidapi.com/restyler/api/article-extractor-and-summarizer. Once you have your key, add it to your `.env` file:
 
 ```bash
 REACT_APP_RAPIDAPI_KEY=your_api_key_here
