@@ -128,3 +128,29 @@
   @apply rounded-xl border border-gray-200 bg-white/20 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur p-4;
 }
 
+.will-change-transform {
+  will-change: transform;
+}
+
+.cursor::after {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 100%;
+  background-color: #fff;
+  animation: cursor 0.6s linear infinite alternate;
+  will-change: opacity;
+}
+ 
+@keyframes cursor {
+  0%,
+  40% {
+    opacity: 1;
+  }
+ 
+  60%,
+  100% {
+    opacity: 0;
+  }
+}
