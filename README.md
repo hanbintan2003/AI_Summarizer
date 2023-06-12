@@ -1,18 +1,22 @@
 
 # AI_Summarizer
 
-A web project that use react.js, and using API to summarizer a website.
-
+A web project that leverages the power of machine learning to provide succinct summaries of online articles. Developed with React.js and Vite, it offers a highly responsive and beautiful user interface with a touch of glass morphism, thanks to Tailwind CSS.
 
 ## How to Run
 
-Install with npm, put below on the comment line.
+To run on local:
 
 ```bash
   $ npm install 
   $ npm run dev
 ```
-    
+To upload:
+
+```bash
+  $ npm run build 
+```
+
 ---
 
 ## API Setup
